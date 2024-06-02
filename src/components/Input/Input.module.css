@@ -1,0 +1,48 @@
+.formGroup {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.input {
+  position: relative;
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid var(--gray-40);
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: var(--text-color);
+  background-color: var(--gray-10);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input:focus {
+  border-color: var(--accent-gold-hover);
+  box-shadow: var(--shadow);
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .input {
+    padding: 9px 14px;
+    font-size: 0.88rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .input {
+    padding: 10px 16px;
+    font-size: 1rem;
+  }
+}
+
+.loginFormIcon {
+  position: absolute;
+  color: var(--gray-50);
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+
+.loginFormIcon:hover {
+  color: var(--gray-60);
+}
