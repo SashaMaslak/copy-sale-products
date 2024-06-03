@@ -4,6 +4,7 @@ import Header from "../../components/Header/Header"
 import Footer from "../../components/Footer/Footer"
 import imgLaptop from "../../assets/images/laptop.jpeg"
 import css from "./ProductsPreview.module.css"
+import Button from "../../components/Button/Button"
 
 const ProductsPreview = () => {
   return (
@@ -19,7 +20,7 @@ const ProductsPreview = () => {
 
               <div className={css.productInfo}>
                 <h3 className={css.productInfoTitle}>
-                  Ноутбук Lenovo Y50-70 Aluminum Black
+                  Laptop Lenovo Y50-70 Aluminum Black
                 </h3>
                 <p className={css.productInfoDescr}>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
@@ -33,6 +34,14 @@ const ProductsPreview = () => {
                   <p className={css.productInfoPrice}>$29.99</p>
                   <p className={css.productInfoQuantity}>Quantity: 333</p>
                 </div>
+              </div>
+              <div className={css.productBuyBtn}>
+                <Button
+                  buttonType="submit"
+                  buttonTitle="Buy product"
+                  minSize="150px"
+                  iconName="basket"
+                />
               </div>
             </div>
           </a>
@@ -44,7 +53,7 @@ const ProductsPreview = () => {
 
               <div className={css.productInfo}>
                 <h3 className={css.productInfoTitle}>
-                  Ноутбук Lenovo Y50-70 Aluminum Black
+                  Laptop Lenovo Y50-70 Aluminum Black
                 </h3>
                 <p className={css.productInfoDescr}>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
@@ -58,6 +67,14 @@ const ProductsPreview = () => {
                   <p className={css.productInfoPrice}>$29.99</p>
                   <p className={css.productInfoQuantity}>Quantity: 333</p>
                 </div>
+              </div>
+              <div className={css.productBuyBtn}>
+                <Button
+                  buttonType="submit"
+                  buttonTitle="Buy product"
+                  minSize="150px"
+                  iconName="basket"
+                />
               </div>
             </div>
           </a>
@@ -69,7 +86,7 @@ const ProductsPreview = () => {
               </div>
               <div className={css.productInfo}>
                 <h3 className={css.productInfoTitle}>
-                  Ноутбук Lenovo Y50-70 Aluminum Black
+                  Laptop Lenovo Y50-70 Aluminum Black
                 </h3>
                 <p className={css.productInfoDescr}>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
@@ -84,7 +101,14 @@ const ProductsPreview = () => {
                   <p className={css.productInfoQuantity}>Quantity: 333</p>
                 </div>
               </div>
-              <div className={css.productPurchase}>Ready to send</div>
+              <div className={css.productBuyBtn}>
+                <Button
+                  buttonType="submit"
+                  buttonTitle="Buy product"
+                  minSize="150px"
+                  iconName="basket"
+                />
+              </div>
             </div>
           </a>
 
@@ -96,7 +120,7 @@ const ProductsPreview = () => {
 
               <div className={css.productInfo}>
                 <h3 className={css.productInfoTitle}>
-                  Ноутбук Lenovo Y50-70 Aluminum Black
+                  Laptop Lenovo Y50-70 Aluminum Black
                 </h3>
                 <p className={css.productInfoDescr}>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
@@ -110,6 +134,14 @@ const ProductsPreview = () => {
                   <p className={css.productInfoPrice}>$29.99</p>
                   <p className={css.productInfoQuantity}>Quantity: 333</p>
                 </div>
+              </div>
+              <div className={css.productBuyBtn}>
+                <Button
+                  buttonType="submit"
+                  buttonTitle="Buy product"
+                  minSize="150px"
+                  iconName="basket"
+                />
               </div>
             </div>
           </a>
@@ -122,7 +154,7 @@ const ProductsPreview = () => {
 
               <div className={css.productInfo}>
                 <h3 className={css.productInfoTitle}>
-                  Ноутбук Lenovo Y50-70 Aluminum Black
+                  Laptop Lenovo Y50-70 Aluminum Black
                 </h3>
                 <p className={css.productInfoDescr}>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
@@ -136,6 +168,14 @@ const ProductsPreview = () => {
                   <p className={css.productInfoPrice}>$29.99</p>
                   <p className={css.productInfoQuantity}>Quantity: 333</p>
                 </div>
+              </div>
+              <div className={css.productBuyBtn}>
+                <Button
+                  buttonType="submit"
+                  buttonTitle="Buy product"
+                  minSize="150px"
+                  iconName="basket"
+                />
               </div>
             </div>
           </a>
@@ -148,7 +188,7 @@ const ProductsPreview = () => {
 
               <div className={css.productInfo}>
                 <h3 className={css.productInfoTitle}>
-                  Ноутбук Lenovo Y50-70 Aluminum Black
+                  Laptop Lenovo Y50-70 Aluminum Black
                 </h3>
                 <p className={css.productInfoDescr}>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
@@ -163,6 +203,14 @@ const ProductsPreview = () => {
                   <p className={css.productInfoPrice}>$29.99</p>
                   <p className={css.productInfoQuantity}>Quantity: 333</p>
                 </div>
+              </div>
+              <div className={css.productBuyBtn}>
+                <Button
+                  buttonType="submit"
+                  buttonTitle="Buy product"
+                  minSize="150px"
+                  iconName="basket"
+                />
               </div>
             </div>
           </a>
@@ -175,7 +223,7 @@ const ProductsPreview = () => {
 
               <div className={css.productInfo}>
                 <h3 className={css.productInfoTitle}>
-                  Ноутбук Lenovo Y50-70 Aluminum Black
+                  Laptop Lenovo Y50-70 Aluminum Black
                 </h3>
                 <p className={css.productInfoDescr}>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
@@ -189,6 +237,14 @@ const ProductsPreview = () => {
                   <p className={css.productInfoPrice}>$29.99</p>
                   <p className={css.productInfoQuantity}>Quantity: 333</p>
                 </div>
+              </div>
+              <div className={css.productBuyBtn}>
+                <Button
+                  buttonType="submit"
+                  buttonTitle="Buy product"
+                  minSize="150px"
+                  iconName="basket"
+                />
               </div>
             </div>
           </a>
@@ -201,7 +257,7 @@ const ProductsPreview = () => {
 
               <div className={css.productInfo}>
                 <h3 className={css.productInfoTitle}>
-                  Ноутбук Lenovo Y50-70 Aluminum Black
+                  Laptop Lenovo Y50-70 Aluminum Black
                 </h3>
                 <p className={css.productInfoDescr}>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
@@ -215,6 +271,14 @@ const ProductsPreview = () => {
                   <p className={css.productInfoPrice}>$29.99</p>
                   <p className={css.productInfoQuantity}>Quantity: 333</p>
                 </div>
+              </div>
+              <div className={css.productBuyBtn}>
+                <Button
+                  buttonType="submit"
+                  buttonTitle="Buy product"
+                  minSize="150px"
+                  iconName="basket"
+                />
               </div>
             </div>
           </a>
@@ -227,7 +291,7 @@ const ProductsPreview = () => {
 
               <div className={css.productInfo}>
                 <h3 className={css.productInfoTitle}>
-                  Ноутбук Lenovo Y50-70 Aluminum Black
+                  Laptop Lenovo Y50-70 Aluminum Black
                 </h3>
                 <p className={css.productInfoDescr}>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
@@ -241,6 +305,14 @@ const ProductsPreview = () => {
                   <p className={css.productInfoPrice}>$29.99</p>
                   <p className={css.productInfoQuantity}>Quantity: 333</p>
                 </div>
+              </div>
+              <div className={css.productBuyBtn}>
+                <Button
+                  buttonType="submit"
+                  buttonTitle="Buy product"
+                  minSize="150px"
+                  iconName="basket"
+                />
               </div>
             </div>
           </a>

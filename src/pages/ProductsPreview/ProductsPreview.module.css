@@ -158,5 +158,8 @@
   }
 }
 
-.productPurchase {
+.productBuyBtn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
 }

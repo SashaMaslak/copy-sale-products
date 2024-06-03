@@ -1,17 +1,25 @@
 import React from "react"
 import { MdAddToPhotos } from "react-icons/md"
 import { MdApps } from "react-icons/md"
+import { BsFillCartFill } from "react-icons/bs"
+import { BsFillCartCheckFill } from "react-icons/bs"
+
+import { SlBasket } from "react-icons/sl"
 import css from "./Button.module.css"
 
 const Button = props => {
   const { buttonType, buttonTitle, styleAdd, minSize, iconName } = props
   let iconBtn = null
+  console.log(iconName)
   switch (iconName) {
     case "preview":
       iconBtn = <MdApps className={`icon`} />
       break
     case "addProduct":
       iconBtn = <MdAddToPhotos className={`icon`} />
+      break
+    case "basket":
+      iconBtn = <BsFillCartFill className={`icon`} />
       break
     default:
       iconBtn = null
