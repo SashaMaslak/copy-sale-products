@@ -11,40 +11,239 @@ const ProductsPreview = () => {
       <div className={css.ProductsPreviewPage}>
         <Header />
         <main className={css.cardsBlock}>
-          <div class={css.productCard}>
-            <img src={imgLaptop} alt="Product 1" />
-            <div className={css.productInfo}>
-              <h3>Product 1</h3>
-              <p>Short description of the product.</p>
-              <div className={css.price}>$29.99</div>
+          <a href="https://google.com" className={css.productCardLink}>
+            <div className={css.productCard}>
+              <div className={css.productImg}>
+                <img src={imgLaptop} alt="Product 1" />
+              </div>
+
+              <div className={css.productInfo}>
+                <h3 className={css.productInfoTitle}>
+                  Ноутбук Lenovo Y50-70 Aluminum Black
+                </h3>
+                <p className={css.productInfoDescr}>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                  atque ad obcaecati, eveniet cupiditate vero impedit.
+                  Consequatur, provident! Recusandae nihil iure sint vero nam
+                  accusantium laudantium ducimus facere optio cumque qui vel
+                  odit totam perspiciatis voluptatem, dicta quisquam nesciunt
+                  labore.
+                </p>
+                <div className={css.priceAndQuantity}>
+                  <p className={css.productInfoPrice}>$29.99</p>
+                  <p className={css.productInfoQuantity}>Quantity: 333</p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div className={css.productCard}>
-            <img src={imgLaptop} alt="Product 2" />
-            <div className={css.productInfo}>
-              <h3>Product 2</h3>
-              <p>Short description of the product.</p>
-              <div className={css.price}>$39.99</div>
+          </a>
+          <a href="https://google.com" className={css.productCardLink}>
+            <div className={css.productCard}>
+              <div className={css.productImg}>
+                <img src={imgLaptop} alt="Product 2" />
+              </div>
+
+              <div className={css.productInfo}>
+                <h3 className={css.productInfoTitle}>
+                  Ноутбук Lenovo Y50-70 Aluminum Black
+                </h3>
+                <p className={css.productInfoDescr}>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                  atque ad obcaecati, eveniet cupiditate vero impedit.
+                  Consequatur, provident! Recusandae nihil iure sint vero nam
+                  accusantium laudantium ducimus facere optio cumque qui vel
+                  odit totam perspiciatis voluptatem, dicta quisquam nesciunt
+                  labore.
+                </p>
+                <div className={css.priceAndQuantity}>
+                  <p className={css.productInfoPrice}>$29.99</p>
+                  <p className={css.productInfoQuantity}>Quantity: 333</p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div className={css.productCard}>
-            <div className={css.productImg}>
-              <img src={imgLaptop} alt="Product 3" />
+          </a>
+
+          <a href="https://google.com" className={css.productCardLink}>
+            <div className={css.productCard}>
+              <div className={css.productImg}>
+                <img src={imgLaptop} alt="Product 3" />
+              </div>
+              <div className={css.productInfo}>
+                <h3 className={css.productInfoTitle}>
+                  Ноутбук Lenovo Y50-70 Aluminum Black
+                </h3>
+                <p className={css.productInfoDescr}>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                  atque ad obcaecati, eveniet cupiditate vero impedit.
+                  Consequatur, provident! Recusandae nihil iure sint vero nam
+                  accusantium laudantium ducimus facere optio cumque qui vel
+                  odit totam perspiciatis voluptatem, dicta quisquam nesciunt
+                  labore.
+                </p>
+                <div className={css.priceAndQuantity}>
+                  <p className={css.productInfoPrice}>$29.99</p>
+                  <p className={css.productInfoQuantity}>Quantity: 333</p>
+                </div>
+              </div>
+              <div className={css.productPurchase}>Ready to send</div>
             </div>
-            <div className={css.productInfo}>
-              <h3>Product 3</h3>
-              <p>Short description of the product.</p>
-              <div className={css.price}>$49.99</div>
+          </a>
+
+          <a href="https://google.com" className={css.productCardLink}>
+            <div className={css.productCard}>
+              <div className={css.productImg}>
+                <img src={imgLaptop} alt="Product 4" />
+              </div>
+
+              <div className={css.productInfo}>
+                <h3 className={css.productInfoTitle}>
+                  Ноутбук Lenovo Y50-70 Aluminum Black
+                </h3>
+                <p className={css.productInfoDescr}>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                  atque ad obcaecati, eveniet cupiditate vero impedit.
+                  Consequatur, provident! Recusandae nihil iure sint vero nam
+                  accusantium laudantium ducimus facere optio cumque qui vel
+                  odit totam perspiciatis voluptatem, dicta quisquam nesciunt
+                  labore.
+                </p>
+                <div className={css.priceAndQuantity}>
+                  <p className={css.productInfoPrice}>$29.99</p>
+                  <p className={css.productInfoQuantity}>Quantity: 333</p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div className={css.productCard}>
-            <img src={imgLaptop} alt="Product 4" />
-            <div className={css.productInfo}>
-              <h3>Product 3</h3>
-              <p>Short description of the product.</p>
-              <div className={css.price}>$49.99</div>
+          </a>
+
+          <a href="https://google.com" className={css.productCardLink}>
+            <div className={css.productCard}>
+              <div className={css.productImg}>
+                <img src={imgLaptop} alt="Product 5" />
+              </div>
+
+              <div className={css.productInfo}>
+                <h3 className={css.productInfoTitle}>
+                  Ноутбук Lenovo Y50-70 Aluminum Black
+                </h3>
+                <p className={css.productInfoDescr}>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                  atque ad obcaecati, eveniet cupiditate vero impedit.
+                  Consequatur, provident! Recusandae nihil iure sint vero nam
+                  accusantium laudantium ducimus facere optio cumque qui vel
+                  odit totam perspiciatis voluptatem, dicta quisquam nesciunt
+                  labore.
+                </p>
+                <div className={css.priceAndQuantity}>
+                  <p className={css.productInfoPrice}>$29.99</p>
+                  <p className={css.productInfoQuantity}>Quantity: 333</p>
+                </div>
+              </div>
             </div>
-          </div>
+          </a>
+
+          <a href="https://google.com" className={css.productCardLink}>
+            <div className={css.productCard}>
+              <div className={css.productImg}>
+                <img src={imgLaptop} alt="Product 6" />
+              </div>
+
+              <div className={css.productInfo}>
+                <h3 className={css.productInfoTitle}>
+                  Ноутбук Lenovo Y50-70 Aluminum Black
+                </h3>
+                <p className={css.productInfoDescr}>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                  atque ad obcaecati, eveniet cupiditate vero impedit.
+                  Consequatur, provident! Recusandae nihil iure sint vero nam
+                  accusantium laudantium ducimus facere optio cumque qui vel
+                  odit totam perspiciatis voluptatem, dicta quisquam nesciunt
+                  labore.
+                </p>
+
+                <div className={css.priceAndQuantity}>
+                  <p className={css.productInfoPrice}>$29.99</p>
+                  <p className={css.productInfoQuantity}>Quantity: 333</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://google.com" className={css.productCardLink}>
+            <div className={css.productCard}>
+              <div className={css.productImg}>
+                <img src={imgLaptop} alt="Product 7" />
+              </div>
+
+              <div className={css.productInfo}>
+                <h3 className={css.productInfoTitle}>
+                  Ноутбук Lenovo Y50-70 Aluminum Black
+                </h3>
+                <p className={css.productInfoDescr}>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                  atque ad obcaecati, eveniet cupiditate vero impedit.
+                  Consequatur, provident! Recusandae nihil iure sint vero nam
+                  accusantium laudantium ducimus facere optio cumque qui vel
+                  odit totam perspiciatis voluptatem, dicta quisquam nesciunt
+                  labore.
+                </p>
+                <div className={css.priceAndQuantity}>
+                  <p className={css.productInfoPrice}>$29.99</p>
+                  <p className={css.productInfoQuantity}>Quantity: 333</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://google.com" className={css.productCardLink}>
+            <div className={css.productCard}>
+              <div className={css.productImg}>
+                <img src={imgLaptop} alt="Product 8" />
+              </div>
+
+              <div className={css.productInfo}>
+                <h3 className={css.productInfoTitle}>
+                  Ноутбук Lenovo Y50-70 Aluminum Black
+                </h3>
+                <p className={css.productInfoDescr}>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                  atque ad obcaecati, eveniet cupiditate vero impedit.
+                  Consequatur, provident! Recusandae nihil iure sint vero nam
+                  accusantium laudantium ducimus facere optio cumque qui vel
+                  odit totam perspiciatis voluptatem, dicta quisquam nesciunt
+                  labore.
+                </p>
+                <div className={css.priceAndQuantity}>
+                  <p className={css.productInfoPrice}>$29.99</p>
+                  <p className={css.productInfoQuantity}>Quantity: 333</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://google.com" className={css.productCardLink}>
+            <div className={css.productCard}>
+              <div className={css.productImg}>
+                <img src={imgLaptop} alt="Product 9" />
+              </div>
+
+              <div className={css.productInfo}>
+                <h3 className={css.productInfoTitle}>
+                  Ноутбук Lenovo Y50-70 Aluminum Black
+                </h3>
+                <p className={css.productInfoDescr}>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                  atque ad obcaecati, eveniet cupiditate vero impedit.
+                  Consequatur, provident! Recusandae nihil iure sint vero nam
+                  accusantium laudantium ducimus facere optio cumque qui vel
+                  odit totam perspiciatis voluptatem, dicta quisquam nesciunt
+                  labore.
+                </p>
+                <div className={css.priceAndQuantity}>
+                  <p className={css.productInfoPrice}>$29.99</p>
+                  <p className={css.productInfoQuantity}>Quantity: 333</p>
+                </div>
+              </div>
+            </div>
+          </a>
         </main>
         <Footer />
       </div>
