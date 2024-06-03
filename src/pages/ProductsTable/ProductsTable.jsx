@@ -1,6 +1,5 @@
 import React from "react"
 import Container from "../../components/Container/Container"
-import Logo from "../../components/Logo/Logo"
 import Button from "../../components/Button/Button"
 import Table from "./components/Table/Table"
 import css from "./ProductsTable.module.css"
