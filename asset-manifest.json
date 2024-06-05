@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/copy-sale-products/static/css/main.f4df9748.css",
-    "main.js": "/copy-sale-products/static/js/main.0674b594.js",
+    "main.css": "/copy-sale-products/static/css/main.e9acff3e.css",
+    "main.js": "/copy-sale-products/static/js/main.a9be7955.js",
     "static/media/Manrope.ttf": "/copy-sale-products/static/media/Manrope.4afb283bba326df875f6.ttf",
     "static/media/laptop.jpeg": "/copy-sale-products/static/media/laptop.66c24030d3c32d52c088.jpeg",
     "static/media/carts-col.svg": "/copy-sale-products/static/media/carts-col.2b2928533e5e13f229cbc99fd3d635a4.svg",
     "static/media/logo.png": "/copy-sale-products/static/media/logo.a28da07e3d88516a5ea2.png",
     "index.html": "/copy-sale-products/index.html",
-    "main.f4df9748.css.map": "/copy-sale-products/static/css/main.f4df9748.css.map",
-    "main.0674b594.js.map": "/copy-sale-products/static/js/main.0674b594.js.map"
+    "main.e9acff3e.css.map": "/copy-sale-products/static/css/main.e9acff3e.css.map",
+    "main.a9be7955.js.map": "/copy-sale-products/static/js/main.a9be7955.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4df9748.css",
-    "static/js/main.0674b594.js"
+    "static/css/main.e9acff3e.css",
+    "static/js/main.a9be7955.js"
   ]
 }
