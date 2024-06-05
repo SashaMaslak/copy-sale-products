@@ -17,10 +17,10 @@ const Button = ({
   let iconBtn = null
   switch (iconName) {
     case "preview":
-      iconBtn = <MdApps className={`icon`} />
+      iconBtn = <MdApps className={`icon`} size={iconSize} />
       break
     case "addProduct":
-      iconBtn = <MdAddToPhotos className={`icon`} />
+      iconBtn = <MdAddToPhotos className={`icon`} size={iconSize} />
       break
     case "buyProduct":
       iconBtn = <CartIcon type="add" size={iconSize} />

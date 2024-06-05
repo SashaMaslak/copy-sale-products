@@ -1,39 +1,51 @@
 import React from "react"
 import Container from "components/Container/Container"
 import Button from "components/Button/Button"
-import Table from "components/Table/Table"
+import Table from "./components/Table/Table"
 import css from "./ProductsTable.module.css"
 import Footer from "components/Footer/Footer"
 import Header from "components/Header/Header"
 
-const ProductsTable = () => (
-  <Container>
-    <div className={css.productsTablePage}>
-      <Header />
+const ProductsTable = () => {
+  const handleClickBtnNav = e => {
+    console.log(e.target)
+  }
 
-      <nav className={css.nav}>
-        <Button
-          buttonType="button"
-          buttonTitle="Preview"
-          styleAdd="border"
-          minSize="150px"
-          iconName="preview"
-        />
-        <Button
-          buttonType="button"
-          buttonTitle="Add product"
-          styleAdd="border"
-          minSize="150px"
-          iconName="addProduct"
-        />
-      </nav>
-      <h2 className={css.title}>Products</h2>
-      <main className={css.tableBlock}>
-        <Table />
-      </main>
-    </div>
-    <Footer />
-  </Container>
-)
+  return (
+    <Container>
+      <div className={css.productsTablePage}>
+        <Header />
+
+        <nav className={css.nav}>
+          <Button
+            onClick={e => handleClickBtnNav(e)}
+            name="preview"
+            buttonType="button"
+            buttonTitle="Preview"
+            styleAdd="border"
+            minWidth="160px"
+            iconName="preview"
+            iconSize="32px"
+          />
+          <Button
+            onClick={e => handleClickBtnNav(e)}
+            name="addProduct"
+            buttonType="button"
+            buttonTitle="Add product"
+            styleAdd="border"
+            minWidth="160px"
+            iconName="addProduct"
+            iconSize="32px"
+          />
+        </nav>
+        <h2 className={css.title}>Products</h2>
+        <main className={css.tableBlock}>
+          <Table />
+        </main>
+      </div>
+      <Footer />
+    </Container>
+  )
+}
 
 export default ProductsTable

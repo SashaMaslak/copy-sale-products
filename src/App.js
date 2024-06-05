@@ -1,10 +1,12 @@
-import ProductsPreview from "./pages/ProductsPreview/ProductsPreview"
+import ProductsPreview from "pages/ProductsPreview/ProductsPreview"
 import "./App.css"
+import ProductsTable from "pages/ProductsTable/ProductsTable"
 
 function App() {
   return (
     <div className="App">
-      <ProductsPreview />
+      {/* <ProductsPreview /> */}
+      <ProductsTable />
     </div>
   )
 }
