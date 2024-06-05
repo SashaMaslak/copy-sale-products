@@ -12,13 +12,23 @@ const ProductsPreview = () => {
   let iconSize = isTabletMin && isTabletMax ? "26" : "32"
   let btnWidth = isTabletMin && isTabletMax ? "120px" : "150px"
 
+  function handleCardClick(event) {
+    if (!event.target.closest(".productBuyBtn")) {
+      console.log("Click on card")
+      // Ваш код для відкриття інформаційної сторінки про товар тут
+    }
+  }
+
+  function handleButtonClick(event) {
+    event.stopPropagation() // Зупиняє подальше розповсюдження події
+    console.log("Click on button")
+    // Ваш код для обробки кліку на кнопку "Купити" тут
+  }
+
   return (
     <Container>
       <div
-        onClick={e => {
-          e.stopPropagation()
-          console.log(e.target, "div")
-        }}
+        onClick={e => handleCardClick(e)}
         className={css.ProductsPreviewPage}
       >
         <Header />
@@ -45,11 +55,7 @@ const ProductsPreview = () => {
             </div>
             <div className={css.productBuyBtn}>
               <Button
-                onClick={e => {
-                  e.stopPropagation()
-                  console.log(e.target)
-                  console.log("button")
-                }}
+                onClick={e => handleButtonClick(e)}
                 buttonType="submit"
                 buttonTitle="Buy product"
                 minWidth="120px"

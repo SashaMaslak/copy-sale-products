@@ -1,14 +1,14 @@
 .ProductsPreviewPage {
   min-height: 100vh;
   height: 100%;
-  padding-top: 1rem;
+  padding-top: 16px;
 }
 
 .cardsBlock {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
-  padding: 20px;
+  padding: 12px 20px;
   min-height: 80vh;
 }
 
