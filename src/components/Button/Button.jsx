@@ -5,6 +5,7 @@ import CartIcon from "components/Icons/CartIcon/CartIcon"
 import css from "./Button.module.css"
 
 const Button = ({
+  onClick,
   buttonType,
   buttonTitle,
   styleAdd,
@@ -30,6 +31,7 @@ const Button = ({
   return (
     <div className={css.buttonGroup}>
       <button
+        onClick={onClick}
         type={buttonType}
         className={`${css.button} ${
           styleAdd === "border" && css.buttonBorder

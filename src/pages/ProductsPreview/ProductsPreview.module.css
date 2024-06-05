@@ -39,6 +39,7 @@
   overflow: hidden;
   background-color: var(--white-color);
   transition: transform 0.3s;
+  cursor: pointer;
 }
 
 .productCard:hover {
