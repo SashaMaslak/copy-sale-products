@@ -8,8 +8,15 @@ import { SlBasket } from "react-icons/sl"
 import css from "./Button.module.css"
 
 const Button = props => {
-  const { buttonType, buttonTitle, styleAdd, minSize, iconName, iconSize } =
-    props
+  const {
+    buttonType,
+    buttonTitle,
+    styleAdd,
+    minWidth,
+    width,
+    iconName,
+    iconSize,
+  } = props
   let iconBtn = null
   console.log(iconName)
   switch (iconName) {
@@ -32,7 +39,7 @@ const Button = props => {
         className={`${css.button} ${
           styleAdd === "border" && css.buttonBorder
         } `}
-        style={{ minWidth: minSize }}
+        style={{ minWidth: minWidth, width: width }}
       >
         {iconName && iconBtn}
         <span style={{ lineHeight: `${iconSize}px` }} className={css.textBtn}>
