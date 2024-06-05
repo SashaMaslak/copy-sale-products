@@ -28,18 +28,6 @@
   gap: 1.5rem;
 }
 
-@media (min-width: 768px) {
-  .titleForm {
-    font-size: 1.8rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .titleForm {
-    font-size: 2rem;
-  }
-}
-
 .footerCard {
   width: 100%;
   position: absolute;

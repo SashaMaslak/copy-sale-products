@@ -114,7 +114,7 @@ button:focus {
   font-size: 1.2rem;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .icon {
     font-size: 1.3rem;
   }
@@ -124,4 +124,4 @@ button:focus {
   .icon {
     font-size: 1.4rem;
   }
-}
+} */

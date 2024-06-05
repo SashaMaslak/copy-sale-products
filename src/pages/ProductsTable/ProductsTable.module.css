@@ -16,18 +16,6 @@
   margin-bottom: 1rem;
 }
 
-@media (min-width: 768px) {
-  .title {
-    font-size: 3rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .title {
-    font-size: 4rem;
-  }
-}
-
 .tableBlock {
   width: 100%;
   display: flex;

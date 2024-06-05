@@ -1,0 +1,21 @@
+{
+  "folders": [
+	{
+		"name": "myresume",
+		"path": "../../myresume"
+	},
+	{
+		"name": "Copy (1) team-project-2",
+		"path": "../../Copy (1) team-project-2"
+	},
+	{
+		"name": "sale-products",
+		"path": "../../sale-products"
+	},
+	{
+		"name": "copy-sale-products",
+		"path": "."
+	}
+],
+  "settings": {}
+}

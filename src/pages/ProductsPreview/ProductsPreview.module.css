@@ -18,13 +18,13 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .cardsBlock {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .cardsBlock {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -48,19 +48,7 @@
 .productImg {
   display: flex;
   justify-content: center;
-  padding: 1rem 1.5rem;
-}
-
-@media (min-width: 768px) {
-  .productImg {
-    padding: 1rem 1rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .productImg {
-    padding: 1rem 2rem;
-  }
+  padding: 0px 32px;
 }
 
 .productInfo {
@@ -72,30 +60,30 @@
 .productInfoTitle {
   color: var(--text-color);
   margin: 0px 0px 10px 0px;
-  font-size: 1rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   .productInfoTitle {
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .productInfoTitle {
-    font-size: 1rem;
+    font-size: 14px;
   }
 }
 
 .productInfoDescr {
+  font-size: 12px;
   text-align: left;
   margin: 0.5rem 0rem 1.5rem 0rem;
-  font-size: 0.8rem;
   color: var(--gray-70);
   overflow: hidden;
-  max-height: 45px;
+  max-height: 70px;
   text-overflow: ellipsis;
 }
+
+/* @media (min-width: 480px) {
+  .productInfoDescr {
+    font-size: 10px;
+    max-height: 48px;
+  }
+} */
 
 .priceAndQuantity {
   display: flex;
@@ -103,59 +91,17 @@
   align-items: center;
 }
 
-@media (min-width: 480px) and (max-width: 991px) {
-  .priceAndQuantity {
-    display: block;
-  }
-}
-
-@media (min-width: 1200px) {
-  .priceAndQuantity {
-    padding: 0rem 1rem;
-  }
-}
-
 .productInfoPrice {
-  font-size: 1.1rem;
+  font-size: 20px;
   color: var(--accent-orange-color);
   line-height: 0;
   font-weight: bold;
 }
 
-@media (min-width: 480px) and (max-width: 991px) {
-  .productInfoPrice {
-    margin-bottom: 1.15rem;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  .productInfoPrice {
-    font-size: 1.15rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .productInfoPrice {
-    font-size: 1.3rem;
-  }
-}
-
 .productInfoQuantity {
+  font-size: 14px;
   color: var(--text-color);
   font-weight: bold;
-  font-size: 0.75rem;
-}
-
-@media (min-width: 768px) {
-  .productInfoQuantity {
-    font-size: 0.82rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .productInfoQuantity {
-    font-size: 0.9rem;
-  }
 }
 
 .productBuyBtn {
