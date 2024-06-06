@@ -5,6 +5,11 @@ import { RiDeleteBin6Fill } from "react-icons/ri"
 import css from "./TableRow.module.css"
 
 const TableRow = ({ product }) => {
+  const formattedPrice = product?.price.toLocaleString("en-US", {
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
+  })
+
   const handleClickIcon = e => {
     e.stopPropagation()
     switch (e.currentTarget.name) {
@@ -36,7 +41,7 @@ const TableRow = ({ product }) => {
       <td className={css.rowItem}>{product?.category}</td>
       <td className={css.rowItem}>{product?.name}</td>
       <td className={css.rowItem}>{product?.quantity}</td>
-      <td className={css.rowItem}>{product?.price}</td>
+      <td className={css.rowItem}>{formattedPrice}</td>
       <td className={css.rowItem}>
         <div className={css.iconsGroup}>
           <button onClick={e => handleClickIcon(e)} name="edit">
