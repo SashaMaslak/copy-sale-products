@@ -23,12 +23,12 @@
 
 .loginFormIcon {
   position: absolute;
-  color: var(--gray-50);
+  color: var(--gray-60);
   top: 50%;
   transform: translateY(-50%);
   right: 10px;
 }
 
 .loginFormIcon:hover {
-  color: var(--gray-60);
+  color: var(--accent-orange-color);
 }

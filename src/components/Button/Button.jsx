@@ -36,7 +36,7 @@ const Button = ({
         className={`${css.button} ${
           styleAdd === "border" && css.buttonBorder
         } `}
-        style={{ minWidth: minWidth, width: width }}
+        style={{ width: width }}
       >
         {iconName && iconBtn}
         <span style={{ lineHeight: `${iconSize}px` }} className={css.textBtn}>

@@ -7,8 +7,18 @@ import Footer from "components/Footer/Footer"
 import Header from "components/Header/Header"
 
 const ProductsTable = () => {
-  const handleClickBtnNav = e => {
-    console.log(e.target)
+  const handleClickBtnNav = (e, btnName) => {
+    e.stopPropagation()
+    switch (btnName) {
+      case "preview":
+        console.log("pressPreview")
+        break
+      case "addProduct":
+        console.log("PressaddProduct")
+        break
+      default:
+        break
+    }
   }
 
   return (
@@ -18,22 +28,20 @@ const ProductsTable = () => {
 
         <nav className={css.nav}>
           <Button
-            onClick={e => handleClickBtnNav(e)}
-            name="preview"
+            onClick={e => handleClickBtnNav(e, "preview")}
             buttonType="button"
             buttonTitle="Preview"
             styleAdd="border"
-            minWidth="160px"
+            width="160px"
             iconName="preview"
             iconSize="32px"
           />
           <Button
-            onClick={e => handleClickBtnNav(e)}
-            name="addProduct"
+            onClick={e => handleClickBtnNav(e, "addProduct")}
             buttonType="button"
             buttonTitle="Add product"
             styleAdd="border"
-            minWidth="160px"
+            width="160px"
             iconName="addProduct"
             iconSize="32px"
           />

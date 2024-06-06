@@ -18,9 +18,9 @@ const ProductsPreview = () => {
     }
   }
 
-  function handleButtonClick(event) {
+  function handleBuyClick(event) {
     event.stopPropagation()
-    console.log("Click on button")
+    console.log("Click on buy Click")
   }
 
   return (
@@ -53,10 +53,9 @@ const ProductsPreview = () => {
             </div>
             <div className={css.productBuyBtn}>
               <Button
-                onClick={e => handleButtonClick(e)}
-                buttonType="submit"
+                onClick={e => handleBuyClick(e)}
+                buttonType="button"
                 buttonTitle="Buy product"
-                minWidth="120px"
                 width={btnWidth}
                 iconName="buyProduct"
                 iconSize={iconSize}

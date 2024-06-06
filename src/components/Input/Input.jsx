@@ -1,8 +1,15 @@
 import React from "react"
+import { FaEyeSlash } from "react-icons/fa"
 import { FaEye } from "react-icons/fa"
 import css from "./Input.module.css"
 
-const Input = ({ inputName, inputType, inputPlaceholder, required }) => (
+const Input = ({
+  inputName,
+  inputType,
+  inputPlaceholder,
+  required,
+  toggleVisiblePass,
+}) => (
   <div className={css.formGroup}>
     <input
       className={css.input}
@@ -12,9 +19,21 @@ const Input = ({ inputName, inputType, inputPlaceholder, required }) => (
       placeholder={inputPlaceholder}
       required={required}
     />
-    {inputType === "password" && (
+
+    {inputName === "password" && inputType === "password" && (
       <button>
-        <FaEye className={`icon ${css.loginFormIcon}`} />
+        <FaEyeSlash
+          onClick={() => toggleVisiblePass()}
+          className={`icon ${css.loginFormIcon}`}
+        />
+      </button>
+    )}
+    {inputName === "password" && inputType === "text" && (
+      <button>
+        <FaEye
+          onClick={() => toggleVisiblePass()}
+          className={`icon ${css.loginFormIcon}`}
+        />
       </button>
     )}
   </div>

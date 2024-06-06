@@ -23,9 +23,11 @@ const TableRow = ({ product }) => {
   }
 
   const handleDoubleClickRow = e => {
-    e.stopPropagation()
-    console.log(e.currentTarget)
-    console.log("handleDoubleClickRow")
+    if (e.target.classList.contains(css.rowItem)) {
+      console.log("DoubleClick on <TR>>")
+    } else {
+      console.log("NO CLICK <TR>")
+    }
   }
 
   return (

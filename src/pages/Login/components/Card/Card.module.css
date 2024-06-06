@@ -1,9 +1,7 @@
 .loginForm {
   position: relative;
-  max-width: 500px;
-  height: 630px;
-  margin-top: 100px;
-  padding: 36px;
+  margin-top: 36px;
+  padding: 20px 32px;
   background-color: var(--white-color);
   border: 1px solid var(--gray-40);
   border-radius: 10px;
@@ -11,28 +9,25 @@
 }
 .logo {
   margin: 0 auto;
-  width: 20rem;
+  max-width: 300px;
+  width: 100%;
 }
 
 .titleForm {
-  margin-top: 60px;
-  margin-bottom: 36px;
+  margin-top: 24px;
+  margin-bottom: 24px;
   text-align: center;
-  font-size: 1.6rem;
-  color: var(--text-color);
+  font-size: 28px;
 }
 
 .btnGroup {
   display: flex;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 24px;
 }
 
 .footerCard {
-  width: 100%;
-  position: absolute;
-  bottom: 36px;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-top: 96px;
+  font-size: 14px;
   color: var(--text-color);
 }
